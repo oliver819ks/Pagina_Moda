@@ -1,0 +1,239 @@
+/* Paleta de colores */
+:root {
+    --morado-oscuro: #271e38;
+    --morado: #4d3a68;
+    --lavanda: #8760a6;
+    --rosa-claro: #d48ff1;
+    --rosado-suave: #ffd0f4;
+    --fondo: #fef9fd;
+    --texto: #271e38;
+    --blanco: #ffffff;
+  }
+  
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--fondo);
+    color: var(--texto);
+    line-height: 1.6;
+    padding-bottom: 100px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(90deg, var(--lavanda), var(--morado));
+    color: var(--blanco);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid var(--rosa-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  #logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: var(--rosado-suave);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: var(--lavanda);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: var(--rosa-claro);
+  }
+  
+  /* Secciones */
+  section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  section h2 {
+    color: var(--morado);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  section h3 {
+    color: var(--rosa-claro);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  section p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Buscador */
+  .busqueda {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .busqueda input {
+    width: 80%;
+    max-width: 400px;
+    padding: 0.6rem 1rem;
+    border: 2px solid var(--lavanda);
+    border-radius: 25px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .busqueda input:focus {
+    border-color: var(--rosa-claro);
+    box-shadow: 0 0 5px var(--rosa-claro);
+  }
+  
+  /* Catálogo */
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .producto {
+    background-color: var(--blanco);
+    border: 1px solid var(--rosado-suave);
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(135, 96, 166, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .producto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(135, 96, 166, 0.2);
+  }
+  
+  .producto img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .producto h4 {
+    color: var(--lavanda);
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .producto p {
+    color: var(--morado);
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--morado);
+    color: var(--blanco);
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: var(--rosa-claro);
+    text-decoration: none;
+  }
+  
+  footer .redes {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 1.5rem 1rem;
+    }
+  
+    header h1 {
+      font-size: 2.2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 0.5rem 0.8rem;
+    }
+  
+    .busqueda input {
+      width: 90%;
+    }
+  
+    section {
+      padding: 1.5rem 1rem;
+    }
+  
+    .producto h4 {
+      font-size: 1rem;
+    }
+  
+    .producto p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    header p {
+      font-size: 0.9rem;
+    }
+  
+    nav a {
+      display: block;
+      margin: 0.4rem 0;
+    }
+  
+    .busqueda input {
+      width: 100%;
+    }
+  }
+  
+  
