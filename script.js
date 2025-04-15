@@ -143,6 +143,30 @@ const pestañasPostizas = [
       precio: 35000,
       imagen: "imagenes_pestañas/pestañas_24.jpeg",
       descripcion: "Deslumbra con un look intenso y dramático que no pasará desapercibido."
+    },
+    {
+      nombre: "Mirada Mariposa",
+      precio: 35000,
+      imagen: "imagenes_pestañas/pestañas_25.jpeg",
+      descripcion: "Deslumbra tu mirada con un estilo impactante."
+    },
+    {
+      nombre: "Mirada De Diosa",
+      precio: 35000,
+      imagen: "imagenes_pestañas/pestañas_26.jpeg",
+      descripcion: "Despierta tu poder interior con unas pestañas que hipnotizan, eleva tu mirada y resalta tu belleza."
+    },
+    {
+      nombre: "Encanto Secreto",
+      precio: 35000,
+      imagen: "imagenes_pestañas/pestañas_27.jpeg",
+      descripcion: "Inspiradas en la elegancia de la noche, estas pestañas realzan tu mirada con un estilo envolvente y misterioso."
+    },
+    {
+      nombre: "Sueño De Medianoche",
+      precio: 35000,
+      imagen: "imagenes_pestañas/pestañas_28.jpeg",
+      descripcion: "Sutiles, seducturas y magicamente irresistibles "
     }
   ];
 
@@ -215,7 +239,19 @@ const uñasPressOn = [
         descripcion: "Uñas en tonos suaves y delicados, ideales para un look natural y femenino.",
         precio: 20000,
         imagen: "imagenes_uñas/uñas_11.jpg"
-    }
+    },
+    {
+      nombre: "Toque De Elegancia",
+      descripcion: "Siente la sofisticacion en cada gesto, con un diseño clasico y refinado que hara que tus manos sean una obra de arte.",
+      precio: 20000,
+      imagen: "imagenes_uñas/uñas_12.jpeg"
+    },
+    {
+      nombre: "Ritmo Vibes",
+      descripcion: "Liberate y deja que tus uñas cuenten tu historia.",
+      precio: 20000,
+      imagen: "imagenes_uñas/uñas_13.jpeg"
+    }    
 ];
 
 
