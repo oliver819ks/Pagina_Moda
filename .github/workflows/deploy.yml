@@ -3,22 +3,23 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  
+      - master  # Se ejecutará cuando hagas un push a la rama master
+
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # El entorno de ejecución es Ubuntu
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # Este paso descarga el código desde el repositorio
 
       - name: Set up Git
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.email "github-actions@github.com"  # Configura el usuario para hacer commits
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3  # Acción para desplegar en GitHub Pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Pagina_Moda  
+          publish_dir: .  # Publica desde la raíz del repositorio
