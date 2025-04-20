@@ -147,7 +147,7 @@ const pestañasPostizas = [
 
 const uñasPressOn = [
     {
-        nombre: "Glamour Natural",
+        nombre: "Glamour Natural (Agotado)",
         descripcion: "Las uñas perfectas para un look natural y sofisticado. Llévalas con confianza para cualquier ocasión.",
         precio: 20000,
         imagen: "imagenes_uñas/uñas_1.jpeg" 
@@ -165,7 +165,7 @@ const uñasPressOn = [
         imagen: "imagenes_uñas/uñas_3.jpeg"
     },
     {
-        nombre: "Arte en Uñas",
+        nombre: "Arte en Uñas (Agotado)",
         descripcion: "Diseño artístico y único para un look llamativo. Perfectas para las que aman la originalidad.",
         precio: 20000,
         imagen: "imagenes_uñas/uñas_4.jpeg"
@@ -195,23 +195,18 @@ const uñasPressOn = [
         imagen: "imagenes_uñas/uñas_8.jpeg"
     },
     {
-        nombre: "Estilo Reflejo",
+        nombre: "Estilo Reflejo (Agotado)",
         descripcion: "Diseño reflectante y moderno, perfecto para las que aman el brillo y el estilo.",
         precio: 20000,
         imagen: "imagenes_uñas/uñas_9.jpeg"
     },
     {
-        nombre: "Silueta Elegante",
+        nombre: "Silueta Elegante (Agotado)",
         descripcion: "Un diseño sofisticado que resalta la elegancia de tus manos.",
         precio: 20000,
         imagen: "imagenes_uñas/uñas_10.jpeg"
     },
-    {
-        nombre: "Rosa Pastel",
-        descripcion: "Uñas en tonos suaves y delicados, ideales para un look natural y femenino.",
-        precio: 20000,
-        imagen: "imagenes_uñas/uñas_11.jpg"
-    },
+   
     {
       nombre: "Toque De Elegancia",
       descripcion: "Siente la sofisticacion en cada gesto, con un diseño clasico y refinado que hara que tus manos sean una obra de arte.",
