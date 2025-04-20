@@ -215,13 +215,13 @@ const uñasPressOn = [
     {
       nombre: "Toque De Elegancia",
       descripcion: "Siente la sofisticacion en cada gesto, con un diseño clasico y refinado que hara que tus manos sean una obra de arte.",
-      precio: 35000,
+      precio: 30000,
       imagen: "imagenes_uñas/uñas_12.jpeg"
     },
     {
       nombre: "Ritmo Vibes",
       descripcion: "Liberate y deja que tus uñas cuenten tu historia.",
-      precio: 35000,
+      precio: 30000,
       imagen: "imagenes_uñas/uñas_13.jpeg"
     }    
 ];
