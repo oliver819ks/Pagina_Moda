@@ -18,30 +18,7 @@ const pestañasPostizas = [
       imagen: "imagenes_pestañas/pestañas_3.jpeg",
       descripcion: "Para una mirada profunda y expresiva, ideal para el maquillaje dramático."
     },
-    {
-      nombre: "Lifting Elegante",
-      precio: 35000,
-      imagen: "imagenes_pestañas/pestañas_4.jpeg",
-      descripcion: "Realza tu mirada con este efecto lifting. Perfecto para ocasiones especiales."
-    },
-    {
-      nombre: "Foxy Look",
-      precio: 35000,
-      imagen: "imagenes_pestañas/pestañas_5.jpeg",
-      descripcion: "Con un estilo felino que elevará tu mirada, logrando un look atrevido."
-    },
-    {
-      nombre: "Diva Glam",
-      precio: 35000,
-      imagen: "imagenes_pestañas/pestañas_6.jpeg",
-      descripcion: "Volumen extra y longitud dramática para un look de diva."
-    },
-    {
-      nombre: "Sensual Curva",
-      precio: 35000,
-      imagen: "imagenes_pestañas/pestañas_7.jpeg",
-      descripcion: "Pestañas con una curva sensual para una mirada cautivadora."
-    },
+   
     {
       nombre: "Extra Largo",
       precio: 35000,
@@ -78,12 +55,7 @@ const pestañasPostizas = [
       imagen: "imagenes_pestañas/pestañas_13.jpeg",
       descripcion: "Diseñadas para realzar tu belleza de manera natural, con sutileza."
     },
-    {
-      nombre: "Misteriosa Noche",
-      precio: 35000,
-      imagen: "imagenes_pestañas/pestañas_14.jpeg",
-      descripcion: "Pestañas perfectas para un look misterioso y glamuroso de noche."
-    },
+ 
     {
       nombre: "Amanecer Radiante",
       precio: 35000,
@@ -243,13 +215,13 @@ const uñasPressOn = [
     {
       nombre: "Toque De Elegancia",
       descripcion: "Siente la sofisticacion en cada gesto, con un diseño clasico y refinado que hara que tus manos sean una obra de arte.",
-      precio: 20000,
+      precio: 35000,
       imagen: "imagenes_uñas/uñas_12.jpeg"
     },
     {
       nombre: "Ritmo Vibes",
       descripcion: "Liberate y deja que tus uñas cuenten tu historia.",
-      precio: 20000,
+      precio: 35000,
       imagen: "imagenes_uñas/uñas_13.jpeg"
     }    
 ];
