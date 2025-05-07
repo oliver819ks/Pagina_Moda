@@ -133,6 +133,8 @@
     text-align: center;
     box-shadow: 0 4px 10px rgba(135, 96, 166, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    
   }
   
   .producto:hover {

@@ -181,6 +181,42 @@ const pestañasPostizas = [
     precio: 35000,
     imagen: "imagenes_pestañas/pestañas_35.jpeg",
     descripcion: "Diseñadas para elevar tu look con volumen extremo y acabado sofisticado."
+  },
+  {
+    nombre: "Book The Love",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_36.jpeg",
+    descripcion: "Este elegante libro de pestañas postizas reúne una cuidada selección de estilos en un formato práctico y visualmente atractivo."
+  },
+  {
+    nombre: "Kit Volumen Supreme",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_37.jpeg",
+    descripcion: "Cada par está creado con fibras suaves y livianas que aportan cuerpo y densidad sin perder comodidad."
+  },
+  {
+    nombre: "Impact Lash",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_38.jpeg",
+    descripcion: "Su diseño en capas aporta densidad y profundidad, perfecto para un look audaz y glamuroso."
+  },
+  {
+    nombre: "Soft Elegance",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_39.jpeg",
+    descripcion: "Perfectas para el uso diario o eventos especiales."
+  },
+  {
+    nombre: "Obsession Kit",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_40.jpeg",
+    descripcion: "Desde un look natural hasta un acabado dramático, cada par está diseñado con fibras flexibles y livianas para máxima comodidad y estilo."
+  },
+  {
+    nombre: "Drama Queen",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_41.jpeg",
+    descripcion: "Atrévete a deslumbrar con Drama Queen, unas pestañas postizas ultra voluminosas que elevan tu mirada al siguiente nivel."
   }
 ];
 
@@ -260,7 +296,13 @@ const uñasPressOn = [
     descripcion: "Liberate y deja que tus uñas cuenten tu historia.",
     precio: 30000,
     imagen: "imagenes_uñas/uñas_13.jpeg"
-  }    
+  },
+  {
+    nombre: "Hello Glam by Kitty",
+    descripcion: "Agrega un toque tierno y con estilo a tus manos con Hello Glam by Kitty, un set de uñas postizas inspirado en el icónico encanto de Hello Kitty.",
+    precio: 30000,
+    imagen: "imagenes_uñas/uñas_14.jpeg"
+  }  
 ];
 
 // agregar productos lenceria 
@@ -284,8 +326,51 @@ const lenceria = [
     descripcion: "Despierta tus sentidos con un diseño que combina sensualidad y elegancia en cada encaje.",
     precio: 27000,
     imagen: "imagenes_lenceria/lenceria_3.jpeg"
+  },
+  {
+    nombre: "Noir Desire",
+    descripcion: "Déjate envolver por el encanto de Noir Desire, una pijama sexy de satén negro que combina elegancia y seducción.",
+    precio: 30000,
+    imagen: "imagenes_lenceria/lenceria_4.jpeg"
+  },
+  {
+    nombre: "Noir Desire",
+    descripcion: "Déjate envolver por el encanto de Noir Desire, una pijama sexy de satén negro que combina elegancia y seducción.",
+    precio: 30000,
+    imagen: "imagenes_lenceria/lenceria_5.jpeg"
   }
 
+];
+
+// Funcion de pirsing de esos de boca o ombligo
+
+const Piercing = [
+
+  {
+    nombre: "Jardín de Perlas",
+    descripcion: "Valor Unidad",
+    precio: 15000,
+    imagen: "imagenes_piercing/piercing_1.jpeg"
+  },
+  {
+    nombre: "Silver Mood",
+    descripcion: "Valor Unidad",
+    precio: 15000,
+    imagen: "imagenes_piercing/piercing_2.jpeg"
+  },
+  {
+    nombre: "Pink Glow",
+    descripcion: "Valor Unidad",
+    precio: 15000,
+    imagen: "imagenes_piercing/piercing_3.jpeg"
+  },
+  {
+    nombre: "Golden Touch",
+    descripcion: "Valor Unidad",
+    precio: 15000,
+    imagen: "imagenes_piercing/piercing_4.jpeg"
+  }
+  
 ];
 
 // Función para renderizar productos
@@ -332,9 +417,15 @@ const resultadoslenceria = lenceria.filter(p =>
   p.descripcion.toLowerCase().includes(filtro)
 );
 
+const resultadosPiercing = Piercing.filter(p =>
+  p.nombre.toLowerCase().includes(filtro) ||
+  p.descripcion.toLowerCase().includes(filtro)
+);
+
 mostrarProductos(resultadoslenceria, "lista-lenceria");
 mostrarProductos(resultadosPestañas, "lista-pestañas");
 mostrarProductos(resultadosUñas, "lista-uñas");
+mostrarProductos(resultadosPiercing, "lista-piercing");
 }
 
 // Event listener para el buscador
@@ -346,3 +437,4 @@ filtrarProductos(e.target.value);
 mostrarProductos(pestañasPostizas, "lista-pestañas");
 mostrarProductos(uñasPressOn, "lista-uñas");
 mostrarProductos(lenceria, "lista-lenceria");
+mostrarProductos(Piercing, "lista-piercing");
