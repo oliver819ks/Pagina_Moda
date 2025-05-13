@@ -195,6 +195,54 @@ const pestañasPostizas = [
     precio: 35000,
     imagen: "imagenes_pestañas/pestañas_41.jpeg",
     descripcion: "Atrévete a deslumbrar con Drama Queen, unas pestañas postizas ultra voluminosas que elevan tu mirada al siguiente nivel."
+  },
+  {
+    nombre: "Diosa Suprema",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_42.jpeg",
+    descripcion: "Luce una mirada divina con pestañas que elevan tu belleza al máximo nivel."
+  },
+  {
+    nombre: "Encanto Natural",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_43.jpeg",
+    descripcion: "Ideales para un look fresco y sutil, como si hubieras nacido con ellas."
+  },
+  {
+    nombre: "Mirada Letal",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_44.jpeg",
+    descripcion: "Poderosas y definidas: roba todas las miradas con un solo parpadeo."
+  },
+  {
+    nombre: "Sueño de Seda",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_45.jpeg",
+    descripcion: "Suaves, ligeras y seductoras, como una caricia en tus ojos."
+  },
+  {
+    nombre: "Reina Salvaje",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_46.jpeg",
+    descripcion: "Volumen salvaje y curvatura intensa para las más atrevidas."
+  },
+  {
+    nombre: "Chispa de Ángel",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_47.jpeg",
+    descripcion: "Brillo sutil y elegancia celestial para una mirada inocente pero irresistible."
+  },
+  {
+    nombre: "Fabulash",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_48.jpeg",
+    descripcion: "Tu aliada diaria para un glamour instantáneo y sin esfuerzo."
+  },
+  {
+    nombre: "Noches de Lujo",
+    precio: 18000,
+    imagen: "imagenes_pestañas/pestañas_49.jpeg",
+    descripcion: "Perfectas para eventos y fiestas, diseñadas para brillar bajo las luces."
   }
 ];
 
