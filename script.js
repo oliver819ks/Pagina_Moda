@@ -243,6 +243,18 @@ const pestañasPostizas = [
     precio: 18000,
     imagen: "imagenes_pestañas/pestañas_49.jpeg",
     descripcion: "Perfectas para eventos y fiestas, diseñadas para brillar bajo las luces."
+  },
+  {
+    nombre: "Aura Poderosa (20 Uni)",
+    precio: 50000,
+    imagen: "imagenes_pestañas/pestañas_50.jpeg",
+    descripcion: "Es la elección perfecta para quienes buscan realzar su belleza."
+  },
+  {
+    nombre: "Efecto seda",
+    precio: 35000,
+    imagen: "imagenes_pestañas/pestañas_51.jpeg",
+    descripcion: "Es la combinación perfecta entre suavidad y definición."
   }
 ];
 
@@ -330,6 +342,66 @@ const lenceria = [
     descripcion: "Déjate envolver por el encanto de Noir Desire, una pijama sexy de satén negro que combina elegancia y seducción.",
     precio: 30000,
     imagen: "imagenes_lenceria/lenceria_5.jpeg"
+  },
+  {
+    nombre: "Mystic Passion",
+    descripcion: "Dejate envolver por el encanto del misterio con Mystic Passion, una pijama sexy de un seductor todo morado.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_6.jpeg"
+  },
+  {
+    nombre: "Velvet Whisper",
+    descripcion: "Velvet Whisper, diseñada para deslizarse suavemente por la piel, esta prenda destaca por su delicadeza y sofisticación.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_7.jpeg"
+  },
+  {
+    nombre: "Crimson Allure",
+    descripcion: "Crimson allure es la definición de deseo elegante. Su intenso color vino pasión evoca sensualidad profunda, mientras su tela sedosa envuelve el cuerpo con delicadeza.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_8.jpeg"
+  },
+  {
+    nombre: "Obsidiana",
+    descripcion: "Tentación en negro profundo, Obsidiana es una lencería tipo body que abraza cada curva con encajes delicados y un diseño que revela lo justo para encender la imaginación.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_9.jpeg"
+  },
+  {
+    nombre: "Fuego carmesí",
+    descripcion: "Fuego carmesí es una lenceria encendida de pasión, una mezcla perfecta de deseo y elegancia.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_10.jpeg"
+  },
+  {
+    nombre: "Noche Secreta",
+    descripcion: "Noche Secreta es un delicado vestido lencero en negro semitrasparente que juega con el misterio y la insinuación.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_11.jpeg"
+  },
+  {
+    nombre: "Rosa De Luna",
+    descripcion: "Su tono rosa pastel y su brillo sutil reflejan feminidad, ternura y elegancia. ",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_12.jpeg"
+  },
+  {
+    nombre: "Hechizo Púrpura",
+    descripcion: "Es una prenda mágica que combina la sensualidad con un tono púrpura. ",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_13.jpeg"
+  },
+  {
+    nombre: "Pasión Prohibida",
+    descripcion: "Una prenda que enciende la imaginación y despierta los sentidos.",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_14.jpeg"
+  },
+  {
+    nombre: "Sombra Deseada",
+    descripcion: "Un delicado vestido lencero en negro que deslumbra tu figura. ",
+    precio: 35000,
+    imagen: "imagenes_lenceria/lenceria_15.jpeg"
   }
 
 ];
